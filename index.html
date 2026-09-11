@@ -3,17 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>รัก ❤️</title>
+
+    <title>ถึงตุ้ย ❤️</title>
+
+    <!-- เรียกใช้ CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>รัก</h1>
+    <div class="container">
 
-    <p>
-        รักเธอที่สุดเลยนะ ❤️🥰<br>
-        อยู่ด้วยกันไปนาน ๆ นะ 💕
-    </p>
+        <!-- หัวใจ -->
+        <div class="heart">❤️</div>
+
+        <!-- หัวข้อ -->
+        <h1>ถึงตุ้ย คนพิเศษของเค้า 💕</h1>
+
+        <!-- ข้อความ -->
+        <p>
+            รักเธอที่สุดเลยนะ ❤️🥰<br>
+            อยู่ด้วยกันไปนาน ๆ นะ 💕
+        </p>
+
+        <!-- ปุ่ม -->
+        <button onclick="showLove()">
+            💌 กดตรงนี้สิ
+        </button>
+
+        <!-- ข้อความหลังจากกดปุ่ม -->
+        <div id="message"></div>
+
+    </div>
+
+    <!-- เรียกใช้ JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
